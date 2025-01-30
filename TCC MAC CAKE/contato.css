@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #fff9ed;
+}
+
+header {
+    background-color: #ffc4c4;
+    font-size: 40px;
+    display: flex;
+    align-items: center; /* Alinha na vertical */
+    justify-content: space-between; /* Alinha na horizontal */
+    padding-left: 80px;
+    padding-right: 80px;
+    top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagem-pequena {
+    width: 100px;
+    height: auto;
+}
+
+.sem-sublinhado {
+    text-decoration: none !important;
+    color: rgb(75, 11, 11);
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+nav a {
+    color: #000;
+    font-weight: bold;
+    margin-right: 15px; /* Espaçamento entre os links */
+}
+
+/* Ajustando a div .toldo para ocupar toda a largura da tela */
+.toldo {
+    display: flex;
+    justify-content: space-between; /* Alinha as imagens na horizontal */
+    width: 100%; /* Faz com que a div ocupe 100% da largura da tela */
+}
+
+.toldo img {
+    width: 100%; /* A imagem agora ocupa 100% da largura disponível */
+    height: auto;
+}
+
+div.Primeira.logo {
+    position: absolute; /* Logo posicionada de forma absoluta */
+    top: 15%; /* Centraliza a logo verticalmente */
+    left: 13%; /* Centraliza a logo horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para ficar perfeitamente centralizada */
+    z-index: 10; /* Coloca a logo na frente de outros elementos */
+    
+}
